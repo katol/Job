@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+<worker>
+	<depcode>B2</depcode>
+	<depjob>Tester</depjob>
+	<description>Maybe tests software and maybe not</description>
+</worker>
+<worker>
+	<depcode>C3</depcode>
+	<depjob>Admin</depjob>
+	<description>Repairs computers</description>
+</worker>
+<worker>
+	<depcode>D4</depcode>
+	<depjob>Boss</depjob>
+	<description>Rules</description>
+</worker>
+</root>

@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS JOB;
+ 
+CREATE TABLE JOB
+(
+        ID SERIAL,
+        DEPCODE VARCHAR(20) NOT NULL,
+        DEPJOB VARCHAR(100) NOT NULL,
+        DESCRIPTION VARCHAR(255) NOT NULL,
+        PRIMARY KEY (id),
+		UNIQUE (DEPCODE, DEPJOB)
+);
+ 
+INSERT INTO JOB (depcode, depjob, description) VALUES ('A1','Programmer','Writes source code');
+INSERT INTO JOB (depcode, depjob, description) VALUES ('B2','Tester','Tests software');
+
+SELECT * from JOB;

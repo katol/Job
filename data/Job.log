@@ -1,0 +1,6 @@
+00:34:01,904 DEBUG main Main:main:33 - Program begin
+00:34:01,906 DEBUG main Main:getConnectionParameters:106 - Try connect to config
+00:34:01,906 DEBUG main Main:getConnectionParameters:126 - Successfull connect to config
+00:34:02,946 DEBUG main Main:<init>:36 - Creating jobs set from data base begin
+00:34:02,971  INFO main Main:<init>:51 - Successfull creating set of jobs from data base
+00:34:02,971 FATAL main Main:main:73 - Too few arguments!
